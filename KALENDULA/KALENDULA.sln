@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KALENDULA", "KALENDULA\KALENDULA.csproj", "{D4E8815E-CC5C-4411-AD6E-D71BA0E706FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4E8815E-CC5C-4411-AD6E-D71BA0E706FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E8815E-CC5C-4411-AD6E-D71BA0E706FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E8815E-CC5C-4411-AD6E-D71BA0E706FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E8815E-CC5C-4411-AD6E-D71BA0E706FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99C942E8-BE19-41EA-AEC3-E8BC3E38AE9F}
+	EndGlobalSection
+EndGlobal
