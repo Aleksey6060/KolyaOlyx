@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MESSENGER", "MESSENGER.csproj", "{A738AEAB-50D4-410F-87EA-07D6E38C9268}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A738AEAB-50D4-410F-87EA-07D6E38C9268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A738AEAB-50D4-410F-87EA-07D6E38C9268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A738AEAB-50D4-410F-87EA-07D6E38C9268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A738AEAB-50D4-410F-87EA-07D6E38C9268}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAC66EEF-6431-456C-B4C9-EAE4124ECC80}
+	EndGlobalSection
+EndGlobal
