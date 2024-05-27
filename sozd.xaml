@@ -1,0 +1,26 @@
+﻿<Window x:Class="Exel.sozd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exel"
+        mc:Ignorable="d"
+        Title="sozd" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="597*"/>
+            <ColumnDefinition Width="203*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="334*"/>
+            <RowDefinition Height="34*"/>
+            <RowDefinition Height="31*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Загрузить из Excel в программу" HorizontalAlignment="Left" VerticalAlignment="Top" Width="800" Height="26" Grid.Row="2" Click="Zagr" Grid.ColumnSpan="2" Margin="0,2,0,0"/>
+        <Button Content="Сохранить из программы в Excel" HorizontalAlignment="Left" VerticalAlignment="Center" Width="800" Height="26" Grid.Row="3" Click="Sohr" Grid.ColumnSpan="2"/>
+        <DataGrid x:Name="Kreeed" Margin="0,35,0,3" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Button Grid.Column="1" Content="Добавить колонку" HorizontalAlignment="Center" Width="203" Height="35" VerticalAlignment="Center" Click="Dob"/>
+        <TextBox HorizontalAlignment="Center" x:Name="NovST" TextWrapping="Wrap" Text="Введите название колонки" VerticalAlignment="Center" Width="597" Height="35" GotFocus="NovST_GotFocus" LostFocus="NovST_LostFocus"/>
+    </Grid>
+</Window>
