@@ -1,0 +1,11 @@
+<resources>
+    <string name="auth_title">Авторизация</string>
+    <string name="email_label">Email</string>
+    <string name="email_hint">Введите ваш email</string>
+    <string name="app_name">Kakapupu</string>
+    <string name="password_label">Пароль</string>
+    <string name="password_hint">Введите ваш пароль</string>
+    <string name="login_button">Войти</string>
+    <string name="register_prompt">Нет аккаунта? Зарегистрируйтесь</string>
+
+</resources>

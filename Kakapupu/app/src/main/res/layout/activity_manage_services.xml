@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF8E7"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/service_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Название услуги"
+        android:backgroundTint="#8D5524" />
+
+    <EditText
+        android:id="@+id/service_desc"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:hint="Описание"
+        android:backgroundTint="#8D5524" />
+
+    <EditText
+        android:id="@+id/service_category"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:hint="Категория"
+        android:backgroundTint="#8D5524" />
+
+    <Button
+        android:id="@+id/add_service_btn"
+        style="@style/AppButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="Добавить" />
+
+    <EditText
+        android:id="@+id/search_et"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:hint="Поиск по названию"
+        android:backgroundTint="#8D5524" />
+
+    <EditText
+        android:id="@+id/filter_et"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:hint="Фильтр по категории"
+        android:backgroundTint="#8D5524" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/services_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

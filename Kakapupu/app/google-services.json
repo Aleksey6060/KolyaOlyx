@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "44556813931",
+    "project_id": "auth-de8fb",
+    "storage_bucket": "auth-de8fb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44556813931:android:295b873b68c4878b30d32e",
+        "android_client_info": {
+          "package_name": "com.example.kakapupu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4tGO2L_tvH9700v607fVF8YEb0r6DXa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
